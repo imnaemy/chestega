@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess Steganography</title>
+  <!-- -------- anime css ------ -->
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <!-- --------- tiny slider css ------ -->
+  <link rel="stylesheet" href="assets/css/tiny-slider.css">
+  <!-- --------- font awsome css ------ -->
+  <link rel="stylesheet" href="assets/css/all.css">
+  <!-- -------- venobox css ------- -->
+  <link rel="stylesheet" href="assets/css/venobox.css" type="text/css" media="screen" />
+  <!-- ---- Bootstrap css--- -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- ---------- default css --------- -->
+  <link rel="stylesheet" href="assets/css/default.css">
+  <!-- --- style css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+ <!-- --------- preloader ------------ -->
+ <div class="preloader">
+  <div class="loader">
+    <div class="spinner">
+      <div class="spinner-container">
+        <div class="spinner-rotator">
+          <div class="spinner-left">
+            <div class="spinner-circle"></div>
+          </div>
+          <div class="spinner-right">
+            <div class="spinner-circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-------   Header star ------>
+  <header class="header-area">
+    <div class="navbar-area">
+      <!---- navbar star--->
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img class="image" src="assets/img/header/logo/chess.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" data-scroll-nav="0" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-scroll-nav="1" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-scroll-nav="2" href="#">Demo</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!---- navbar end--->
+
+    <div class="header-hero" data-scroll-index="0">
+      <!---- home star ------>
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
+      <div class="shape shape-5"></div>
+      <div class="shape shape-6"></div>
+      <div class="container">
+        <div class="row align-items-center justify-content-center justify-content-lg-between">
+          <div class="col-lg-6 col-md-10">
+            <div class="header-hero-content">
+              <h1 class="header-title wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.2s"><span>Apa itu</span> <i>Chess Steganography</i> ?</h1>
+              <p class="text wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.4s"><b>Chess Steganography</b> merupakan sebuah sistem pengkodean data yang diimplementasikan pada permainan catur melalui <i>Portable Game Notation</i> (PGN) </p>
+              <ul class="d-flex">
+                <li><a data-scroll-nav="1" href="" class="main-btn wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.8s">selengkapnya</a></li>
+                <li><a data-scroll-nav="2" href="https://www.youtube.com/watch?v=Emla0LQSaaU" class="header-video venobox wow fadeInLeftBig"
+                    data-autoplay="true" data-vbtype="video" data-wow-duration="3s" data-wow-delay="1.2s"><i
+                      class="fas fa-play"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="header-image">
+              <img src="assets/img/header/catur.png" alt="" class="image-1  wow fadeInRightBig"
+                data-wow-duration="3s" data-wow-delay="0.5s">
+                <div class="circle wow fadeInRightBig" data-wow-duration="3s" data-wow-delay="0.5s"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="header-shape-1"></div>
+        <div class="header-shape-2">
+          <img src="assets/img/header/header-shape-2.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <!---- home star ------>
+  </header>
+  <!--------   Header End ----  -->
+
+   <!-- ----------- About Section Start --------- -->
+  <section class="about-area pt-70 pb-120" data-scroll-index="1">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="about-image wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.5s">
+            <div class="about-shape"></div>
+            <img src="assets/img/about/catur.gif" alt="" class="app">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="about-content mt-50 wow fadeInRightBig" data-wow-duration="3s" data-wow-delay="0.5s">
+            <div class="section-title">
+              <h1 class="title">Portable Game Notation (PGN) </h1>
+              <p class="text">adalah format standar untuk merekam permainan dalam file teks yang dapat diproses oleh komputer (dalam notasi aljabar standar). Dirancang oleh <b>Steven J. Edwards</b> untuk mencatat urutan gerakan dalam sebuah game dan bukan hanya posisi tertentu.</p>
+            </div>
+            <a href="" class="main-btn">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ----------- About Section End --------- -->
+
+  <!-- ----------- Testimonial Section Start ------- -->
+  <section class="testimonial-section" data-scroll-index="1">
+    <div class="container">
+      <div class="row justify-content-center testimonial-active-wrapper">
+        <div class="col-xl-6 col-lg-7">
+          <div class="section-title text-center mb-60">
+            <h1 class="mb-25 text-white wow fadeInUp" data-wow-delay=".2s">Chess Pieces</h1>
+            <p class="text-white wow fadeInUp" data-wow-delay=".4s">a game piece that is placed on a chessboard to play the game of chess.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-xl-7 col-lg-8">
+            <div class="testimonial-active">
+              <div class="testimonial-wrapper">
+                <div class="single-testimonial">
+                  <div class="info">
+                    <div class="image-2">
+                      <img src="assets/img/testemonial/king.png" alt="">
+                    </div>
+                    <h4>King</h4>
+                    <p>raja</p>
+                    <div class="quote">
+                      <i class="fas fa-chess-king"></i>
+                    </div>
+                    <div class="content">
+                      <p><i>king</i> adalah buah catur yang paling berharga. Permainan akan berakhir apabila raja dalam posisi diserang dan tidak ada jalan untuk membebaskannya (skakmat). <i>king</i> bisa bergerak secara bebas, namun gerakannya dibatasi 1 langkah saja.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-wrapper">
+                <div class="single-testimonial">
+                  <div class="info">
+                    <div class="image-2">
+                      <img src="assets/img/testemonial/queen.png" alt="">
+                    </div>
+                    <h4>Queen</h4>
+                    <p>Ratu</p>
+                    <div class="quote">
+                      <i class="fas fa-chess-queen"></i>
+                    </div>
+                    <div class="content">
+                      <p><i>queen</i> adalah buah catur yang paling kuat. Menteri dapat bergerak baik vertikal, horisontal ataupun diagonal ke segala arah asalkan tidak ada yang menghalangi langkahnya.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-wrapper">
+                <div class="single-testimonial">
+                  <div class="info">
+                    <div class="image-2">
+                      <img src="assets/img/testemonial/bishop.png" alt="">
+                    </div>
+                    <h4>Bishop</h4>
+                    <p>menteri</p>
+                    <div class="quote">
+                      <i class="fas fa-chess-bishop"></i>
+                    </div>
+                    <div class="content">
+                      <p><i>bishop</i> adalah bidak catur yang bergerak secara diagonal dan langkahnya tidak terbatas.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-wrapper">
+                <div class="single-testimonial">
+                  <div class="info">
+                    <div class="image-2">
+                      <img src="assets/img/testemonial/knight.png" alt="">
+                    </div>
+                    <h4>Knight</h4>
+                    <p>kuda</p>
+                    <div class="quote">
+                      <i class="fas fa-chess-knight"></i>
+                    </div>
+                    <div class="content">
+                      <p><i>knight</i> adalah buah catur yang memiliki gerak unik dengan membentuk huruf (L), baik ketika bergerak maupun ketika menangkap buah catur lawan.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-wrapper">
+                <div class="single-testimonial">
+                  <div class="info">
+                    <div class="image-2">
+                      <img src="assets/img/testemonial/rook.png" alt="">
+                    </div>
+                    <h4>Rook</h4>
+                    <p>benteng</p>
+                    <div class="quote">
+                      <i class="fas fa-chess-rook"></i>
+                    </div>
+                    <div class="content">
+                      <p><i>rook</i> adalah bidak catur yang memiliki gerak lurus, baik ketika bergerak maupun ketika menangkap buah catur lawan. Benteng memiliki gerakan istimewa, yaitu rokade.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-wrapper">
+                <div class="single-testimonial">
+                  <div class="info">
+                    <div class="image-2">
+                      <img src="assets/img/testemonial/pawn.png" alt="">
+                    </div>
+                    <h4>Pion</h4>
+                    <p>prajurit</p>
+                    <div class="quote">
+                      <i class="fas fa-chess-pawn"></i>
+                    </div>
+                    <div class="content">
+                      <p><i>Pion</i> adalah bidak catur yang hanya bisa berjalan selangkah ke depan. Jika lawan berada tepat disisi diagonal dari pion, maka pion bisa memakannya. Pion ini juga dapat ditukar dengan bidak yang sudah dimakan oleh lawan.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- ----------- Testimonial Section End ------- -->
+
+ <!-- ----------- FAQ Section Start --------- -->
+ <section class="faq-section pt-120" data-scroll-index="1">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-6 col-lg-7">
+        <div class="section-title text-center mb-60">
+          <h1 class="mb-25 wow fadeInUp" data-wow-delay=".2s">Algoritma <span> Chess Steganography</span></h1>
+          <p class="mb-25 wow fadeInUp" data-wow-delay=".4s">interaksi antara modul <i>Chess Steganography</i> dan bagaimana konfigurasi yang
+            digunakan oleh pengirim dan penerima. </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="accordion wow fadeInLeftBig" id="accordionExample" data-wow-duration="3s" data-wow-delay="0.5s">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Determining Encoding Parameters
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Modul encoding ini mengadopsi pilihan dan menentukan parameter-parameter yang akan digunakan untuk menyembunyikan pesan. Jelas, bahwa
+                  ukuran maksimum pesan akan dibatasi oleh jumlah bidak (16) dan jumlah kotak pada papan catur (64), dan dengan demikian pesan tidak akan melebihi 96bit (16 bidak × 6 bit dari 64 kotak).
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Defining Message Encoder
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Sebuah pesan dikodekan sebagai berikut: pertama, pesan dikonversi ke string biner yang kemudian dibagi menjadi kelompok-kelompok dari sejumlah bit tertentu yang disepakati antara pihak yang akan berkomunikasi sehingga semua kendala pada rentang nilai kode steganografi terpenuhi. Sebagai contoh, dalam pengelompokan berdasarkan 7-bit, nilai masing-masing bertaksir antara [0,127] (0.000.000-1.111.111 dalam biner). 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Massage Camouflaging Scheme
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  penyerang harus mencoba semua himpunan bagian yang
+                  mungkin untuk mengidentifikasi sesuatu yang
+                  relevan, dengan asumsi bahwa kemunculan pesan tersembunyi dalam satu himpunan
+                  tertentu dari dokumen yang berkaitan dengan papan
+                  catur, dan penyerang harus mencoba untuk menebak
+                  <i>skema encoding</i>. Akan sangat sulit bagi musuh untuk
+                  mengidentifikasi parameter untuk menyelidiki, terutama
+                  ketika interaksi eksplisit antara pengirim dan penerima
+                  tidak terjadi.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="faq-image wow fadeInRightBig" data-wow-duration="3s" data-wow-delay="0.5s">
+            <img src="assets/img/download/enkrip.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- ----------- FAQ Section End --------- -->
+  <!-- ----------- FAQ Section Start --------- -->
+  <section class="faq-section pt-120" data-scroll-index="2">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-6 col-lg-7">
+          <div class="section-title text-center mb-60">
+            <h1 class="mb-25 wow fadeInUp" data-wow-delay=".2s">Demo <span> Steganography</span></h1>
+            <p class="mb-25 wow fadeInUp" data-wow-delay=".4s">dirancang untuk mengenkripsi data ke bentuk kode PGN dalam permainan catur.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="accordion wow fadeInLeftBig" id="accordionExample" data-wow-duration="3s" data-wow-delay="0.5s">
+              <div class="accordion-item">
+                <button class="btn btn-primary" id="steg">Steg &raquo;</button>
+                <button class="btn btn-primary" id="stegb">Steg without blunders &raquo;</button>
+                <textarea rows="6" class="form-control" id="data" placeholder="Data..."></textarea>
+              </div>
+              <div class="accordion-item">
+                <button class="btn btn-primary" id="unsteg">Unsteg &laquo;</button>
+                <button class="btn btn-primary" id="unstegb">Unsteg without blunders &laquo;</button>
+                <form target="_blank" action="https://lichess.org/paste" method="">
+                <textarea rows="6" class="form-control" id="pgn" name="pgn" placeholder="Chess game PGN..."></textarea>
+                <button class="btn btn-primary" type="submit">View on lichess &raquo;</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="faq-image wow fadeInRightBig" data-wow-duration="3s" data-wow-delay="0.5s">
+              <img src="assets/img/faq/chess.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>  
+
+
+  <!-- ----------- FAQ Section End --------- -->
+
+  <!-- --------------Footer Section Start ------- -->
+  <footer class="footer-area">
+    <div class="footer-shape shape-1"></div>
+    <div class="footer-shape shape-2"></div>
+    <div class="footer-shape shape-3"></div>
+    <div class="footer-shape shape-4"></div>
+    <div class="footer-shape shape-5"></div>
+    <div class="footer-shape shape-6"></div>
+    <div class="footer-widget pt-30 pb-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-about mt-50">
+              <a href="" class="logo">
+                <img src="assets/img/header/logo/chess.png" alt="">
+              </a>
+              <p class="text"><b>Chess Steganography</b> merupakan sebuah sistem pengkodean data yang diimplementasikan pada permainan catur melalui <i>Portable Game Notation</i> (PGN) </p>
+              <ul class="social">
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <div class="footer-link d-flex flex-wrap">
+              <div class="footer-link-wrapper mt-45">
+                <div class="footer-title">
+                  <h4 class="title">Quick Links</h4>
+                </div>
+                <ul class="link">
+                  <li><a href="">Home</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Demo</a></li>
+                </ul>
+              </div>
+              <div class="footer-link-wrapper mt-45">
+                <div class="footer-title">
+                  <h4 class="title">Support</h4>
+                </div>
+                <ul class="link">
+                  <li><a href="">FAQ</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">Terms OF Use</a></li>
+                  <li><a href="">Legal</a></li>
+                  <li><a href="">Site Map</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-contact mt-45">
+              <div class="footer-title">
+                <h4 class="title">Quick Links</h4>
+              </div>
+              <ul class="contact-list">
+                <li>
+                  <div class="contact-info">
+                    <div class="info-content media-body">
+                      <p class="text"><i class="fas fa-phone-alt"></i>
+                        (0265) 330 634 </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="contact-info">
+                    <div class="info-content media-body">
+                      <p class="text"><a href=""><i class="far fa-envelope"></i>
+                          207006053@student.unsil.ac.id </a>
+                          <a href="">207006078@student.unsil.ac.id</a>
+                          <a href="">207006077@student.unsil.ac.id</a></p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="contact-info">
+                    <div class="info-content media-body">
+                      <p class="text"><a href=""><i class="fas fa-globe"></i>
+                        https://unsil.ac.id</a></p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="contact-info">
+                    <div class="info-content media-body">
+                      <p class="text"><i class="fas fa-map-marker-alt"></i>
+                        Jl. Siliwangi No.24, Kahuripan, Kec. Tawang, Kab. Tasikmalaya, Jawa Barat 46115 </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="lo-lg-12">
+            <div class="copyright">
+              <div class="copyright-text text-center">
+                <p class="text">Copyright &#169; 2022 <a href="">Nandhitta Aemy, Fannisa Andari & Berliana azzahra.</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- --------------Footer Section End ------- -->
+<!-- ---- jquery Js ---- -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<!-- -------- venobox js ------ -->
+<script type="text/javascript" src="assets/js/venobox.min.js"></script>
+<!-- ---------- wow js ---------- -->
+<script src="assets/js/wow.min.js"></script>
+<!-- ---------- tiny slider js --------- -->
+<script src="assets/js/tiny-slider.js"></script>
+<!-- ---------- scrollit js ---------- -->
+<script src="assets/js/scrollIt.min.js"></script>
+<!-- -------- font awsome js --------- -->
+<script src="assets/js/all.js"></script>
+<!-- ---- Bootstrap Js ---- -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- ---- main js --- -->
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>
+<!-- chess steg js -->
+<script src="assets/js/chess.js"></script>
+<script src="assets/js/BigInteger.min.js"></script>
+<script src="assets/js/engine.js"></script>
+<script src="assets/js/chess-steg.js"></script>
+
+
+<script type="text/javascript">
+function trycatch(f) {
+    $('#error').hide();
+    try {
+        f();
+    } catch (e) {
+        $('#error').show();
+        console.log(e.toString());
+    }
+}
+
+$('#steg').click(function() {
+    trycatch(function() {
+        $('#pgn').val(chess_steg($('#data').val()));
+    });
+});
+
+$('#stegb').click(function() {
+    trycatch(function() {
+        $('#pgn').val(chess_steg($('#data').val(), true));
+    });
+});
+
+$('#unsteg').click(function() {
+    trycatch(function() {
+        $('#data').val(chess_unsteg($('#pgn').val()));
+    });
+});
+
+$('#unstegb').click(function() {
+    trycatch(function() {
+        $('#data').val(chess_unsteg($('#pgn').val(), true));
+    });
+});
+</script>
